@@ -8,26 +8,28 @@
 </head>
 <body>
 
-  <!-- Cursor Personalizado Minimalista -->
+  <!-- Cursor Q'Zero Linux con Delay -->
   <div id="custom-cursor"></div>
 
   <div class="card-container">
     <h1 class="logo">AETHERY</h1>
-    <p class="subtitle">Manejador Multimedia Avanzado</p>
+    <p class="subtitle">Manejador Multimedia</p>
 
-    <!-- Formulario de Acceso -->
-    <div id="auth-form">
+    <div id="auth-form" style="width: 100%;">
       <div class="input-group">
-        <input type="text" id="access-key" class="input-field" placeholder="Llave de Acceso Única (AETH-...)">
+        <input type="text" id="access-key" class="input-field" placeholder="Llave de Acceso Única (AETH-...)" autocomplete="off">
       </div>
       <div class="input-group">
-        <input type="text" id="username" class="input-field" placeholder="Usuario">
+        <input type="text" id="username" class="input-field" placeholder="Usuario" autocomplete="off">
       </div>
       <div class="input-group">
         <input type="password" id="password" class="input-field" placeholder="Contraseña">
       </div>
 
       <button id="btn-submit-auth" class="btn btn-primary">Ingresar / Registrarse</button>
+      
+      <!-- Notificación integrada sin alertas feas de navegador -->
+      <div id="status-msg" class="toast-msg"></div>
     </div>
   </div>
 
