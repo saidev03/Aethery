@@ -1,0 +1,13 @@
+{
+  "name": "aethery",
+  "version": "0.2.35",
+  "description": "Manejador Multimedia Avanzado",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
